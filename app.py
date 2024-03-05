@@ -21,15 +21,6 @@ nltk.download('punkt')
 nltk.download('stopwords')
 nltk.download('wordnet')
 
-# Logic for data cleaning tasks
-#Tasks-
-#Missing value handling
-#Maybe outlier handling(?)
-#Formatting and standardization
-#Date/Time manipulation
-# Feature scaling and normalization
-#Categorical encoding
-
 # Function to handle Missing values
 def handle_missing_values(df):
     total_samples = len(df)
